@@ -26,7 +26,7 @@ export default {
 
   computed: {},
 
-  mounted: {},
+  mounted(){},
 
   methods: {
     numTo64(){
@@ -39,7 +39,6 @@ export default {
       for(let i = 1;i<=this.restLength;i++){
           
           if(num==0){
-              console.log(i)
               result.push("0");
               continue;
           }
@@ -47,7 +46,6 @@ export default {
           result.push(SIGNS[Math.floor(num)]);
           num = num - Math.floor(num);
       }
-      console.log(result)
       return result.join("");
     },
     intTo64(num) {
