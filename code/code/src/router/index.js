@@ -76,6 +76,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "lab" */ "../views/Lab.vue"),
   },
+  {
+    path: "/to64Tranform",
+    name: "to64Tranform",
+    component: () =>
+      import(/* webpackChunkName: "lab" */ "../views/To64Tranform.vue"),
+  },
 ];
 
 const router = new VueRouter({
