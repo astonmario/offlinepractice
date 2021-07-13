@@ -32,7 +32,7 @@ export default {
     numTo64(){
       let temInt = Math.floor(this.myNumber);
       let temDecical = this.myNumber - Math.floor(this.myNumber);
-      this.showNum=this.intTo64(temInt) +"."+ this.decimalTo64(temDecical);
+      this.showNum=this.intTo64(temInt) +(this.restLength==0?"":".")+ this.decimalTo64(temDecical);
     },
     decimalTo64(num){
       let result = [];

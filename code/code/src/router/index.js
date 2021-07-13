@@ -77,6 +77,12 @@ const routes = [
       import(/* webpackChunkName: "lab" */ "../views/Lab.vue"),
   },
   {
+    path: "/ToGray",
+    name: "ToGray",
+    component: () =>
+      import(/* webpackChunkName: "lab" */ "../views/toGray.vue"),
+  },
+  {
     path: "/to64Tranform",
     name: "to64Tranform",
     component: () =>
