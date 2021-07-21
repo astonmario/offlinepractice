@@ -88,6 +88,18 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "lab" */ "../views/To64Tranform.vue"),
   },
+  {
+    path: "/lessTheme",
+    name: "lessTheme",
+    component: () =>
+      import(/* webpackChunkName: "lab" */ "../views/LessTheme.vue"),
+  },
+  {
+    path: "/findKNum",
+    name: "findKNum",
+    component: () =>
+      import(/* webpackChunkName: "lab" */ "../views/FindKNum.vue"),
+  },
 ];
 
 const router = new VueRouter({

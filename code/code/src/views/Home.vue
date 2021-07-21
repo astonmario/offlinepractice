@@ -12,6 +12,9 @@
     <a href="/#/LasyImage"><div class="item">LasyImage</div></a> -->
     <a href="/#/to64Tranform"><div class="item">To64Tranform</div></a>
     <a href="/#/toGray"><div class="item">上传并转灰度</div></a>
+    <a href="/#/lessTheme"><div class="item">lessTheme</div></a>
+    <a href="/#/findKNum"><div class="item">findKNum</div></a>
+    
   </div>
 </template>
 
